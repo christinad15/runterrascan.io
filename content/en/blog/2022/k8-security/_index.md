@@ -120,6 +120,8 @@ Explicitly adding capabilities to the `allowedCapabilities` field is inherently 
 SecurityContext should specify `runAsNonRoot` to ensure containers do not run with the root UID of 0.  See #6-#12 above for more information about the dangers of containers as root.
 
 These new policies will enable development teams to better enforce reasonable security policies at build time, and shine a light on configurations that introduce unnecessary risk of vulnerability in the system.  By leveraging policy as code in automated pipelines, teams can effectively identify and remediate risk during development and before insecure systems are deployed.
+
+Try Terrascan in your browser today with [Terrascan Sandbox!] (https://www.tenable.com/terrascan) 
 .
 Note: this series focuses on policies available on the main branch of Terrascan which may precede a release that includes the new policies.  If you want to ensure you are using the latest policies, you can delete your local policy configuration (typically in $HOME/.terrascan) and re-run terrascan init.  The policies discussed in this document were committed to the repository on 2021-01-13 and will be included in the release after 1.2.
 
