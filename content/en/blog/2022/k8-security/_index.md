@@ -5,7 +5,7 @@ linkTitle: "Improving Kubernetes Security"
 description: ""
 author: Cesar Rodriguez ([Developer Advocate](https://github.com/cesar-rodriguez))
 resources:
-- src: "**.{png,jpg}"
+- src: "**.{png,jpeg}"
   title: "Image #:counter"
   params:
     byline: ""
